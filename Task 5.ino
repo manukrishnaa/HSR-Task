@@ -43,7 +43,7 @@ void loop(){
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("Invalid Key!");
-    delay(1000);
+    delay(5000);
     lcd.clear();
   }
   int i=0;
@@ -56,8 +56,8 @@ void loop(){
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("Correct password");
-    delay(3000);
+    delay(5000);
     lcd.clear();  
   }
-  delay(100);
+  delay(10000);
 }
